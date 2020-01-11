@@ -1,0 +1,1 @@
+cmd_/home/thinnguyen/Videos/char_device/vchar_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/thinnguyen/Videos/char_device/vchar_driver.ko /home/thinnguyen/Videos/char_device/vchar_driver.o /home/thinnguyen/Videos/char_device/vchar_driver.mod.o ;  true
